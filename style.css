@@ -1,0 +1,64 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.grid {
+    display: inline-block;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin: 60px;
+    border: 2px solid;
+    border-collapse: inherit;
+    clear: both;
+    margin-right: 100%;
+}
+
+.block p {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333; 
+    text-align: justify;
+    float: right;
+    height: auto;
+    position: relative;
+}
+
+.block img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 20px; 
+    float: left;
+}
+
+.right {
+    display: hidden;
+    min-height: 300px;
+}
+
+.active {
+    display: inline-block;
+}
